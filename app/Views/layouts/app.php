@@ -74,12 +74,12 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-chart-bar me-2"></i>Tagihan</a>
                         <div class="dropdown-menu bg-transparent border-0">
-                            <a href="" class="dropdown-item">P1</a>
-                            <a href="<?php echo base_url('infoPembayaran')?>" class="dropdown-item">P2</a>
-                            <a href="" class="dropdown-item">P3</a>
-                            <a href="" class="dropdown-item">P4</a>
-                            <a href="" class="dropdown-item">P5</a>
-                            <a href="" class="dropdown-item">P6</a>
+                            <a href="<?php echo base_url('tagihanP1')?>" class="dropdown-item">P1</a>
+                            <a href="<?php echo base_url('tagihanP2')?>" class="dropdown-item">P2</a>
+                            <a href="<?php echo base_url('tagihanP3')?>" class="dropdown-item">P3</a>
+                            <a href="<?php echo base_url('tagihanP4')?>" class="dropdown-item">P4</a>
+                            <a href="<?php echo base_url('tagihanP5')?>" class="dropdown-item">P5</a>
+                            <a href="<?php echo base_url('tagihanP6')?>" class="dropdown-item">P6</a>
                         </div>
                     </div>
                     <a href="<?php echo base_url('dashboard')?>" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Evaluasi</a>
