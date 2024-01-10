@@ -8,4 +8,17 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+    {
+        return view('Admin/kontrak');
+    }
+
+    public function infoPembayaran(): string
+    {
+        return view('Admin/infoPembayaran');
+    }
+
+    public function dashboard(): string
+    {
+        return view('Admin/dashboard');
+    }
 }
